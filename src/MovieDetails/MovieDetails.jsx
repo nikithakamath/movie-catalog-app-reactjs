@@ -77,7 +77,7 @@ function MovieDetails({ match }) {
                                                     <h3>Status</h3>
                                                     <p>{movieDetails.status}</p>
                                                     <Icon type="clock-circle" style={{ marginRight: 8 }} key="list-vertical-like-o" />
-                                                    {(movieDetails.runtime)/60} hours
+                                                    {((movieDetails.runtime)/60).toFixed(2)} hours
                                                     </div>
                                                 </div>
                                             </section>
